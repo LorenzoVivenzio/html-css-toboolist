@@ -5,20 +5,51 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #bebdbd;
+    background-color: #e7e5e5;
 }
 header{
     background-color: white;
+    margin-bottom: 50px;
 }
 .logo{
     margin:10px;
     display: inline-block;
     width: 100%;
-    
-}
+    }
 .toboolist{
     font-size: 40px;
     font-family: sans-serif;
     font-weight:bold ;
     vertical-align: top;
 }
+.menu-add{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+     width: 600px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    display: flex;
+}
+.button-task{
+    
+    background-color: #428de2;
+    width: 70px;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    }
+.button-selection{
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    color: #838080;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #838080;
+    margin-left: 5px
+}
+
