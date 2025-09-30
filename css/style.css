@@ -30,7 +30,7 @@ header{
      width: 600px;
     background-color: white;
     border-radius: 5px 5px 0 0;
-    display: flex;
+    display:block ;
 }
 .button-task{
     
@@ -52,4 +52,65 @@ header{
     border: 1px solid #838080;
     margin-left: 5px
 }
+ol{
+    list-style: none;
+}
+li{
+    padding: 10px;
+}
+.space-bot{
+    margin-bottom: 5px;
+}
+.write-bold{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.risposta{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 20px;
+}
+.exact{
+    border: 2px solid #008000;
+}
+.error{
+    border: 2px solid #ff0000;
+}
+.highlighet{
+    display: inline-block;
+    height: 20px;
+    width: 62px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+.blu{
+    background-color: #428de2;
+}
+.purple{
+    background-color: #800080;
+}
+.orange{
+    background-color: #ffa500;
+}
+.green{
+    background-color: #008000;
+}
+.lightgreen{
+    background-color: #90ee90;
+}
+.pink{
+    background-color: pink;
+}
+.pb{
+    padding-bottom:20px;
+}
+
 
